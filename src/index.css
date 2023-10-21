@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  padding: 20px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+}
+.nav .container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .container .logo {
+  width: 30%;
+  margin-left: 30px;
+}
+.nav .container .logo span {
+  font-weight: 700;
+  font-size: 32px;
+  color: #0a66c2;
+}
+.nav .container .logo img {
+  margin: 6.5px 0px auto 2px !important;
+}
+.nav .container .wrapper {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav .container .collapsed-nav {
+  color: f5f5f5;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media screen and (max-width: 786px) {
+  .nav .container .collapsed-nav {
+    display: none;
+  }
+}
+.nav .container .collapsed-nav :hover {
+  color: black;
+  cursor: pointer;
+}
+.nav .container .collapsed-nav a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 10px;
+  padding: 0 8px;
+  font-size: 12px;
+}
+.nav .container .auth-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav .container .auth-nav button {
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  padding: 12px 24px;
+  font-weight: 500;
+}
+.nav .container .auth-nav button:nth-child(2) {
+  border: #0a66c2 solid 1px;
+  color: #0a66c2;
+  border-radius: 30px;
+}
+
+.HomeLogin {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.HomeLogin .image-wrapper {
+  width: 50%;
+}
+.HomeLogin .login-wrapper {
+  margin-left: 20px;
+  height: 100%;
+}
+.HomeLogin .login-wrapper h1 {
+  font-size: 56px;
+  line-height: 67px;
+  font-weight: 300;
+  color: #8f5849;
+}
+.HomeLogin .login-wrapper .login-card form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 60%;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.HomeLogin .login-wrapper .login-card form label {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 8px;
+  line-height: 21px;
+}
+.HomeLogin .login-wrapper .login-card form input {
+  padding: 14px 16px;
+  margin-bottom: 8px;
+}
+.HomeLogin .login-wrapper .login-card form a {
+  font-size: 16px;
+  margin: 10px;
+  color: #0a66c2;
+}
+.HomeLogin .login-wrapper .login-card form button {
+  border: none;
+  color: #fff;
+  background-color: #0a66c2;
+  border-radius: 30px;
+  padding: 12px 24px;
+}
+.HomeLogin .login-wrapper .login-card form button :hover {
+  cursor: pointer;
+}
+
+.main {
+  background-color: #f4f2ee;
+  width: 100%;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+  min-height: 100vh;
+}
+.main .container {
+  width: 93%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+  margin: auto;
+  padding-top: 20px;
+}
+.main .container .left-side {
+  width: 21%;
+  background-color: #fff;
+}/*# sourceMappingURL=index.css.map */
