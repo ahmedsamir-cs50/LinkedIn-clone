@@ -146,11 +146,216 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
   margin: auto;
   padding-top: 20px;
 }
 .main .container .left-side {
-  width: 21%;
+  width: 225px;
   background-color: #fff;
+  transform: translateY(-27px);
+  border-radius: 8px;
+}
+.main .container .left-side .images-wrapper {
+  position: relative;
+  height: 108px;
+}
+.main .container .left-side .background-image {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px;
+  overflow: hidden;
+  height: 56px;
+}
+.main .container .left-side .profile-pic {
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main .container .left-side .name-position h5 {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+.main .container .left-side .name-position p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 0px 3px;
+}
+.main .container .left-side .analysis {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 12px 0px;
+}
+.main .container .left-side .analysis > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 4px 12px;
+}
+.main .container .left-side .analysis > div :first-child {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.main .container .left-side .analysis > div :nth-child(2) {
+  color: #0a66c2;
+}
+.main .container .left-side .items {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.main .container .posts-wrapper {
+  width: 42%;
+}
+.main .container .posts-wrapper .create {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+}
+.main .container .posts-wrapper .post {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .container .posts-wrapper .post img {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 48px;
+}
+.main .container .posts-wrapper .post .input-field {
+  width: 80%;
+}
+.main .container .posts-wrapper .post .input-field input {
+  padding: 12px 8px 12px 16px;
+  width: 100%;
+  border-radius: 30px;
+  border: #666666 solid 1px;
+}
+.main .container .posts-wrapper .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0px;
+}
+.main .container .posts-wrapper .buttons > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .container .posts-wrapper .buttons > div span {
+  margin: 0px 2px;
+}
+.main .container .posts-wrapper .linkedin-post {
+  margin: 20px 0px;
+  background-color: #ffffff;
+  border: 1px solid #e1e9ef;
+  border-radius: 8px;
+  padding: 16px;
+}
+.main .container .posts-wrapper .linkedin-post .post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.main .container .posts-wrapper .linkedin-post .post-header .profile-picture {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+.main .container .posts-wrapper .linkedin-post .post-header .user-info {
+  display: flex;
+  flex-direction: column;
+}
+.main .container .posts-wrapper .linkedin-post .post-header .user-info .name {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 1px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.main .container .posts-wrapper .linkedin-post .post-header .user-info .headline {
+  font-size: 14px;
+  color: #9aa6b8;
+}
+.main .container .posts-wrapper .linkedin-post .post-content {
+  margin-bottom: 16px;
+}
+.main .container .posts-wrapper .linkedin-post .post-content .text {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #333333;
+}
+.main .container .posts-wrapper .linkedin-post .post-content .post-image {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.main .container .posts-wrapper .linkedin-post .post-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .container .posts-wrapper .linkedin-post .post-footer button {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.9);
+  border: none;
+  border-radius: 3px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.main .container .posts-wrapper .linkedin-post .post-footer button:hover {
+  background-color: rgba(152, 216, 244, 0.25);
+}
+.main .container .posts-wrapper .linkedin-post .post-footer button svg {
+  fill: #0a66c2;
+  margin-right: 8px;
 }/*# sourceMappingURL=index.css.map */

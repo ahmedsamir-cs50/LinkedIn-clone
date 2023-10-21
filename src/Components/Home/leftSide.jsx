@@ -1,14 +1,16 @@
 import React from "react";
 import { Card, ListGroup } from "react-bootstrap";
+import background from "../../../public/images/ahmed-backg.jpg"
+import profile from "../../../public/images/1696868161667.jpg"
 
 export const LeftSide = () => {
   return (
     <div className="left-side">
       <div className="images-wrapper">
-        <img className="background-image"></img>
-        <img className="profile-pic"></img>
+        <img className="background-image" src={background}></img>
+        <img className="profile-pic" src={profile}></img>
       </div>
-      <div className="name&position">
+      <div className="name-position">
         <h5>Ahmed Samir</h5>
         <p>Front End Developer || React JS || Next.JS @Codesoft</p>
       </div>
@@ -24,7 +26,7 @@ export const LeftSide = () => {
         </div>
       </div>
       <hr></hr>
-      <div>Mu items</div>
+      <div className="items">My items</div>
     </div>
   );
 };
