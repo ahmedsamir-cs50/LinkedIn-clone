@@ -228,7 +228,7 @@ $main-Blue-color: #0a66c2;
       }
       .post {
         width: 100%;
-        @include flex(space-between);
+        @include flex(space-around);
         img {
           @include image(50%);
           height: 48px;
@@ -267,10 +267,10 @@ $main-Blue-color: #0a66c2;
           margin-bottom: 16px;
 
           .profile-picture {
-           @include image (50%);
-           width:48px;
-height: 48px;
-margin-right: 10px;
+            @include image(50%);
+            width: 48px;
+            height: 48px;
+            margin-right: 10px;
           }
 
           .user-info {
@@ -281,7 +281,7 @@ margin-right: 10px;
               font-size: 14px;
               font-weight: 400;
               margin-bottom: 1px;
-              color: rgba(0, 0, 0, 0.9)
+              color: rgba(0, 0, 0, 0.9);
             }
 
             .headline {
@@ -301,7 +301,7 @@ margin-right: 10px;
           }
 
           .post-image {
-          @include image (50%)
+            @include image(50%);
           }
         }
 
@@ -332,6 +332,9 @@ margin-right: 10px;
           }
         }
       }
+    }
+    .add-to-feed{
+        width:30%
     }
   }
 }
