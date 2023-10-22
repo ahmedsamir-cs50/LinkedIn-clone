@@ -1,11 +1,11 @@
-import React from "react";
+// import React from "react";
 import linked from "../../../public/images/linkedin.png";
 import article from "../../../public/images/nav-home.svg";
 import people from "../../../public/images/nav-network.svg";
 import learning from "../../../public/images/nav-messaging.svg";
 import jobs from "../../../public/images/nav-jobs.svg";
 
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 
 const NavBar = () => {
   return (

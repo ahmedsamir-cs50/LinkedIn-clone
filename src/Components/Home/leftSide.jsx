@@ -1,5 +1,5 @@
-import React from "react";
-import { Card, ListGroup } from "react-bootstrap";
+// import React from "react";
+// import { Card, ListGroup } from "react-bootstrap";
 import background from "../../../public/images/ahmed-backg.jpg"
 import profile from "../../../public/images/1696868161667.jpg"
 
@@ -17,7 +17,7 @@ export const LeftSide = () => {
       <hr></hr>
       <div className="analysis">
         <div>
-          <div>Who's viewed your profile</div>
+          <div>Who has viewed your profile</div>
           <div>48</div>
         </div>
         <div>

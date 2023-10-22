@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import profile from "../../../public/images/1696868161667.jpg"
 import jop from "../../../public/images/jop_case.png"
 import media from "../../../public/images/1814111_image_photograph_picture_icon.png"

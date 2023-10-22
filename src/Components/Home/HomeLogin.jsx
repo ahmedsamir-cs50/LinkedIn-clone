@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import loginHero from "../../../public/images/login-big.svg"
 
 const HomeLogin = () => {

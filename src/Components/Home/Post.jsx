@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import someone from '../../../public/images/someone.jpg'
 
 const Post = () => {
