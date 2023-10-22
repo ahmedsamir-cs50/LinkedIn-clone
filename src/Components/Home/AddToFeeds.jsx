@@ -2,7 +2,9 @@
 
 const AddToFeeds = () => {
   return (
-    <div>AddToFeeds</div>
+    <div className='add-to-feed'>
+      <img src={add}></img>
+    </div>
   )
 }
 

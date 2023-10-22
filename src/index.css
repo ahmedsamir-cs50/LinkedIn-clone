@@ -245,7 +245,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .main .container .posts-wrapper .post img {
@@ -358,4 +358,7 @@
 .main .container .posts-wrapper .linkedin-post .post-footer button svg {
   fill: #0a66c2;
   margin-right: 8px;
+}
+.main .container .add-to-feed {
+  width: 30%;
 }/*# sourceMappingURL=index.css.map */
